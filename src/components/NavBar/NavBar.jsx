@@ -1,7 +1,8 @@
 import css from './NavBar.module.css';
 import React from 'react';
+import pawIcon from '../../assets/pawIcon.png';
 import logo from '../../assets/bcrLogo.png';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 
 export const NavBar = () => {
@@ -11,7 +12,7 @@ export const NavBar = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
-  
+
   return (
     <div className={css.container}>
       <img src={logo} className={css.logo}/>
@@ -21,9 +22,12 @@ export const NavBar = () => {
       </button>
 
       <ul className={`${css.navButtons} ${menuOpen ? css.navOpen : ''}`}>
-        <li className={css.navLink}><Link to='/'>Home</Link></li>
-        <li className={css.navLink}><Link to='/aboutus'>About Us</Link></li>
-        <li className={css.navLink}><Link to='/thecats'>The Cats</Link></li>
+        <NavLink to='/'         className={({ isActive }) => (isActive ? `${css.navLink} ${css.navLinkActive}` : `${css.navLink}`)}>
+          <img src={pawIcon} className={css.navLinkIcon} />Home</NavLink>
+        <NavLink to='/aboutus'  className={({ isActive }) => (isActive ? `${css.navLink} ${css.navLinkActive}` : `${css.navLink}`)}>
+          <img src={pawIcon} className={css.navLinkIcon} />About Us</NavLink>
+        <NavLink to='/thecats'  className={({ isActive }) => (isActive ? `${css.navLink} ${css.navLinkActive}` : `${css.navLink}`)}>
+          <img src={pawIcon} className={css.navLinkIcon} />The Cats</NavLink>
         <li className={css.navLink}>Wishlist</li>
         <li className={css.navLink}>Volunteer</li>
         <li className={css.navLink}>Memorials</li>

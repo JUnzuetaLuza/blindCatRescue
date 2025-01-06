@@ -16,19 +16,19 @@ function App() {
   return (
     <>
         <ScrollToTop/>
-        <TransitionGroup>
+        {/* <TransitionGroup>
           <CSSTransition
             key={location.key}
             classNames="fade"
             timeout={300}
-          >
+          > */}
             <Routes location={location}>
               <Route path="/" element={<Home />} />
               <Route path="aboutus" element={<AboutUs />} />
               <Route path="thecats" element={<TheCats />} />
             </Routes>
-          </CSSTransition>
-        </TransitionGroup>
+          {/* </CSSTransition>
+        </TransitionGroup> */}
         </>
   )
 }

@@ -2,7 +2,6 @@
 .container {
     width: 100vw;
     height: 10vh;
-    padding: 0 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -10,28 +9,42 @@
     top: 0;
     position: fixed;
     z-index: 10;
-    color: #333333;
+    color: #1C1C1C;
 }
 
 .logo {
-    height: 10vh;
+    padding-left: 4rem;
+    height: 8vh;
 }
 .navButtons {
     display: flex;
-    flex-direction: row;
     gap: 50px;
+    padding-right: 4rem;
 }
 .navLink {
     all: unset;
     font-family: sans-serif;
     font-weight: 700;
+    display: flex;
+    gap: 4px;
     cursor: pointer;
 }
 .navLink:hover {
-    color: #e26600;
+    background: linear-gradient(to left, #0D3DEC, #001B80);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-a {
-    all: unset;
+.navLinkActive {
+    color: #0D3DEC;
+}
+.navLinkIcon {
+    height: 1rem;
+    width: 1rem;
+    opacity: 0;
+}
+.navLinkActive .navLinkIcon {
+    opacity: 1;
 }
 
 .burger {
