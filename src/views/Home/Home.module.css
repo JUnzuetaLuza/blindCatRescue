@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    margin: 0 4rem;
+}
+.container h1 {
+    font-family: 'Barlow Condensed';
+    font-size: 5rem;
+}
+.container button {
+    all: unset;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    padding: 0.5rem 4rem;
+    margin: 1rem;
+    border: 2px solid #0D3DEC;
+    border-radius: 2rem;
+    background-color: #0D3DEC;
+    color: #F8F8FF;
+}
+.container button:last-child {
+    background-color: #F8F8FF;
+    color: #0D3DEC;
+}
+
+.catImg {
+    width: 50vw;
+}

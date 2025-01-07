@@ -1,5 +1,10 @@
+@import '@fontsource/barlow-condensed';
+@import '@fontsource/montserrat/400.css'; /* Montserrat Regular */
+@import '@fontsource/montserrat/700.css'; /* Montserrat Bold */
+
 #root {
   margin: 0;
+  font-family: 'Montserrat';
 }
 
 a {
