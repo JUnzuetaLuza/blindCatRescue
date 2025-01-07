@@ -2,6 +2,7 @@
     display: flex;
     padding-top: 12vh;
     margin: 0 4rem;
+    color: #3D3D3D;
 }
 .container:last-child {
     padding-top: 0;
@@ -12,9 +13,11 @@
 .container h1 {
     font-family: 'Barlow Condensed';
     font-size: 5rem;
+    color: #1C1C1C;
 }
 .container h2 {
     font-weight: 300;
+    color: #1C1C1C;
 }
 .container button {
     all: unset;
@@ -40,4 +43,26 @@
 
 .catImg {
     width: 55vw;
+}
+
+.quoteSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4rem;
+    background-image: url('../../assets/quotes.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.quoteText {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #1C1C1C;
+}
+
+.quoteAuthor {
+    color: #3D3D3D;
+    margin-top: 0.5rem;
 }

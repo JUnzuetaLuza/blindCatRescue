@@ -10,7 +10,7 @@ export const Home = () => {
   return (
     <>
       <NavBar/>
-      <div className={css.container}>
+      <section className={css.container}>
         <div>
           <h1>Blind Cat Rescue & Sanctuary, Inc</h1>
           <p>Every cat deserves love and a forever home. Your support can change lives and bring joy to both you and a cat in search of a loving family.</p>
@@ -20,8 +20,8 @@ export const Home = () => {
           </div>
         </div>
         <img src={blindCat1} alt="blindCat1" className={css.catImg} />
-      </div>
-      <div className={css.container}>
+      </section>
+      <section className={css.container}>
         <img src={blindCat2} alt="blindCat2" className={css.catImg} />
         <div>
           <h2>Welcome to the official web page for Blind Cat Rescue & Sanctuary, Inc</h2>
@@ -30,7 +30,11 @@ export const Home = () => {
           <p>We are a registered non-profit 501©3 in the state of North Carolina. Our tax identification number is 20-3410498. Your donations are tax-deductible, encrypted and safe.</p>
           <p>Now we humbly ask for your help. Will you consider becoming the cat's champion by making a gift today? Every little bit helps!.</p>
         </div>
-      </div>
+      </section>
+      <section class={css.quoteSection}>
+        <p class={css.quoteText}>"A blind cats do not know they are blind,<br/> they know they are cats, they act like cats."</p>
+        <p class={css.quoteAuthor}>Alana Miller</p>
+      </section>
     </>
   )
 }
