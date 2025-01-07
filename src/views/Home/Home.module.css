@@ -1,6 +1,10 @@
 .container {
     display: flex;
+    padding-top: 12vh;
     margin: 0 4rem;
+}
+.container div {
+    align-self: center;
 }
 .container h1 {
     font-family: 'Barlow Condensed';
@@ -21,7 +25,13 @@
     background-color: #F8F8FF;
     color: #0D3DEC;
 }
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
 
 .catImg {
-    width: 50vw;
+    width: 55vw;
 }

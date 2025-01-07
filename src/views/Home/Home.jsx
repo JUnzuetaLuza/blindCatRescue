@@ -13,7 +13,7 @@ export const Home = () => {
         <div>
           <h1>Blind Cat Rescue & Sanctuary, Inc</h1>
           <p>Every cat deserves love and a forever home. Your support can change lives and bring joy to both you and a cat in search of a loving family.</p>
-          <div>
+          <div className={css.buttons}>
             <button>Donate</button>
             <button>Adopt</button>
           </div>
