@@ -3,12 +3,18 @@
     padding-top: 12vh;
     margin: 0 4rem;
 }
+.container:last-child {
+    padding-top: 0;
+}
 .container div {
     align-self: center;
 }
 .container h1 {
     font-family: 'Barlow Condensed';
     font-size: 5rem;
+}
+.container h2 {
+    font-weight: 300;
 }
 .container button {
     all: unset;
