@@ -4,6 +4,15 @@ import { NavBar } from '../../components/NavBar/NavBar';
 //import { Footer } from '../../components/Footer/Footer';
 import blindCat1 from '../../assets/blindCat1.png';
 import blindCat2 from '../../assets/blindCat2.png';
+import gridCat1 from '../../assets/gridCat1.jpg';
+import gridCat2 from '../../assets/gridCat2.jpg';
+import gridCat3 from '../../assets/gridCat3.jpg';
+import gridCat4 from '../../assets/gridCat4.jpg';
+import gridCat5 from '../../assets/gridCat5.jpg';
+import gridCat6 from '../../assets/gridCat6.jpg';
+import gridCat7 from '../../assets/gridCat7.jpg';
+import gridCat8 from '../../assets/gridCat8.jpg';
+import gridCat9 from '../../assets/gridCat9.jpg';
 
 export const Home = () => {
 
@@ -34,6 +43,20 @@ export const Home = () => {
       <section class={css.quoteSection}>
         <p class={css.quoteText}>"A blind cats do not know they are blind,<br/> they know they are cats, they act like cats."</p>
         <p class={css.quoteAuthor}>Alana Miller</p>
+      </section>
+      <section className={css.catShowcase}>
+        <div class={css.catGrid}>
+          <img src={gridCat1} alt="Cat 1"/>
+          <img src={gridCat2} alt="Cat 2"/>
+          <img src={gridCat3} alt="Cat 3"/>
+          <img src={gridCat4} alt="Cat 4"/>
+          <img src={gridCat5} alt="Cat 5"/>
+          <img src={gridCat6} alt="Cat 6"/>
+          <img src={gridCat7} alt="Cat 7"/>
+          <img src={gridCat8} alt="Cat 8"/>
+          <img src={gridCat9} alt="Cat 9"/>
+        </div>
+        <button>Show more cats</button>
       </section>
     </>
   )
