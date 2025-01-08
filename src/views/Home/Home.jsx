@@ -1,7 +1,7 @@
 import css from './Home.module.css';
 import { NavBar } from '../../components/NavBar/NavBar';
 //import { Carousel } from '../../components/Carousel/Carousel';
-//import { Footer } from '../../components/Footer/Footer';
+import { Footer } from '../../components/Footer/Footer';
 import blindCat1 from '../../assets/blindCat1.png';
 import blindCat2 from '../../assets/blindCat2.png';
 import gridCat1 from '../../assets/gridCat1.jpg';
@@ -58,6 +58,7 @@ export const Home = () => {
         </div>
         <button>Show more cats</button>
       </section>
+      <Footer/>
     </>
   )
 }
