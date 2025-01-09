@@ -1,3 +1,5 @@
+/**********Info Sections**********/
+
 .container {
     display: flex;
     padding-top: 12vh;
@@ -39,10 +41,12 @@
     display: flex;
     justify-content: space-evenly;
 }
-
 .catImg {
     width: 55vw;
 }
+
+
+/**********Quote Section**********/
 
 .quoteSection {
     display: flex;
@@ -54,17 +58,18 @@
     background-position: center;
     background-size: contain;
 }
-
 .quoteText {
     font-size: 1.2rem;
     font-style: italic;
     color: #1C1C1C;
 }
-
 .quoteAuthor {
     color: #3D3D3D;
     margin-top: 0.5rem;
 }
+
+
+/**********Showcase Section**********/
 
 .catShowcase {
     display: flex;
@@ -92,4 +97,48 @@
     border-radius: 2rem;
     background-color: #F8F8FF;
     color: #0D3DEC;
+}
+
+
+/**********Directions Section**********/
+
+
+
+/**********Sponsors Section**********/
+
+.sponsorSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sponsorSection h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #1C1C1C;
+    margin: 3rem 0;
+}
+.logoSponsors {
+    display: flex;
+    flex-direction: row;
+}
+.logoSponsors img {
+    width: 14vw;
+    object-fit: contain;
+    margin: 0 2vw;
+}
+.sponsorSection button {
+    all: unset;
+    cursor: pointer;
+    padding: 0.5rem 4rem;
+    margin: 5rem auto;
+    border: 2px solid #0D3DEC;
+    border-radius: 2rem;
+    background-color: #0D3DEC;
+    color: #F8F8FF;
+}
+
+
+button:hover {
+    background: linear-gradient(to left, #0D3DEC, #001B80);
+    color: #F8F8FF;
 }

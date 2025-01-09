@@ -13,6 +13,11 @@ import gridCat6 from '../../assets/gridCat6.jpg';
 import gridCat7 from '../../assets/gridCat7.jpg';
 import gridCat8 from '../../assets/gridCat8.jpg';
 import gridCat9 from '../../assets/gridCat9.jpg';
+import petsbest from '../../assets/petsbest.png';
+import supakit from '../../assets/supakit.png';
+import athletesanimal from '../../assets/athletesanimal.png';
+import petcolove from '../../assets/petcolove.png';
+import ebay from '../../assets/ebay.png';
 
 export const Home = () => {
 
@@ -57,6 +62,17 @@ export const Home = () => {
           <img src={gridCat9} alt="Cat 9"/>
         </div>
         <button>Show more cats</button>
+      </section>
+      <section className={css.sponsorSection}>
+        <h3>Thanks to our sponsors!</h3>
+        <div className={css.logoSponsors}>
+          <img src={petsbest} alt="PetsBest"/>
+          <img src={supakit} alt="Supakit"/>
+          <img src={athletesanimal} alt="AthletesAnimal"/>
+          <img src={petcolove} alt="PetcoLove"/>
+          <img src={ebay} alt="Ebay"/>
+        </div>
+        <button>Become a sponsor</button>
       </section>
       <Footer/>
     </>
