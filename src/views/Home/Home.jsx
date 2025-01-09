@@ -18,6 +18,9 @@ import supakit from '../../assets/supakit.png';
 import athletesanimal from '../../assets/athletesanimal.png';
 import petcolove from '../../assets/petcolove.png';
 import ebay from '../../assets/ebay.png';
+import clock from '../../assets/clock.png';
+import cat from '../../assets/cat.png';
+import mail from '../../assets/mail.png';
 
 export const Home = () => {
 
@@ -62,6 +65,20 @@ export const Home = () => {
           <img src={gridCat9} alt="Cat 9"/>
         </div>
         <button>Show more cats</button>
+      </section>
+      <section className={css.directionSection}>
+        <div>
+          <h3>Visit us</h3>
+          <h4><img src={clock} />Open hours</h4>
+          <p>Monday - Saturday 12:30 - 4 pm
+            <br/>Closed on Sunday.</p>
+          <h4><img src={cat} />Shelter</h4>
+          <p>74 Prairie Lane St Pauls, NC 28384</p>
+          <h4><img src={mail} />Mail</h4>
+          <p>3101 E Great Marsh Church
+            <br/>Road St Pauls, NC 28384</p>
+        </div>
+        
       </section>
       <section className={css.sponsorSection}>
         <h3>Thanks to our sponsors!</h3>
