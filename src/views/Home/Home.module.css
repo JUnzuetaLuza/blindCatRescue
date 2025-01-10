@@ -104,6 +104,12 @@
 
 .directionSection {
     display: flex;
+    align-items: center;
+    margin: 0 4rem;
+}
+.directionSub {
+    width: 60vw;
+    padding: 0 10vw;
 }
 .directionSection h3 {
     font-size: 2rem;

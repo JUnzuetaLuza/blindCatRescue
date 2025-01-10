@@ -2,6 +2,7 @@ import css from './Home.module.css';
 import { NavBar } from '../../components/NavBar/NavBar';
 //import { Carousel } from '../../components/Carousel/Carousel';
 import { Footer } from '../../components/Footer/Footer';
+import { Map } from '../../components/Map/Map';
 import blindCat1 from '../../assets/blindCat1.png';
 import blindCat2 from '../../assets/blindCat2.png';
 import gridCat1 from '../../assets/gridCat1.jpg';
@@ -48,12 +49,12 @@ export const Home = () => {
           <p>Now we humbly ask for your help. Will you consider becoming the cat's champion by making a gift today? Every little bit helps!.</p>
         </div>
       </section>
-      <section class={css.quoteSection}>
-        <p class={css.quoteText}>"A blind cats do not know they are blind,<br/> they know they are cats, they act like cats."</p>
-        <p class={css.quoteAuthor}>Alana Miller</p>
+      <section className={css.quoteSection}>
+        <p className={css.quoteText}>"A blind cats do not know they are blind,<br/> they know they are cats, they act like cats."</p>
+        <p className={css.quoteAuthor}>Alana Miller</p>
       </section>
       <section className={css.catShowcase}>
-        <div class={css.catGrid}>
+        <div className={css.catGrid}>
           <img src={gridCat1} alt="Cat 1"/>
           <img src={gridCat2} alt="Cat 2"/>
           <img src={gridCat3} alt="Cat 3"/>
@@ -67,18 +68,18 @@ export const Home = () => {
         <button>Show more cats</button>
       </section>
       <section className={css.directionSection}>
-        <div>
+        <div className={css.directionSub}>
           <h3>Visit us</h3>
-          <h4><img src={clock} />Open hours</h4>
+          <h4><img src={clock} /> Open hours</h4>
           <p>Monday - Saturday 12:30 - 4 pm
             <br/>Closed on Sunday.</p>
-          <h4><img src={cat} />Shelter</h4>
+          <h4><img src={cat} /> Shelter</h4>
           <p>74 Prairie Lane St Pauls, NC 28384</p>
-          <h4><img src={mail} />Mail</h4>
+          <h4><img src={mail} /> Mail</h4>
           <p>3101 E Great Marsh Church
             <br/>Road St Pauls, NC 28384</p>
         </div>
-        
+        <Map/>
       </section>
       <section className={css.sponsorSection}>
         <h3>Thanks to our sponsors!</h3>
