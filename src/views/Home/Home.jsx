@@ -55,15 +55,15 @@ export const Home = () => {
       </section>
       <section className={css.catShowcase}>
         <div className={css.catGrid}>
-          <img src={gridCat1} alt="Cat 1"/>
-          <img src={gridCat2} alt="Cat 2"/>
-          <img src={gridCat3} alt="Cat 3"/>
-          <img src={gridCat4} alt="Cat 4"/>
-          <img src={gridCat5} alt="Cat 5"/>
-          <img src={gridCat6} alt="Cat 6"/>
-          <img src={gridCat7} alt="Cat 7"/>
-          <img src={gridCat8} alt="Cat 8"/>
-          <img src={gridCat9} alt="Cat 9"/>
+          <img src={gridCat1} className={css.small} alt="Cat 1"/>
+          <img src={gridCat2} className={css.large} alt="Cat 2"/>
+          <img src={gridCat3} className={css.small} alt="Cat 3"/>
+          <img src={gridCat4} className={css.small} alt="Cat 4"/>
+          <img src={gridCat5} className={css.small} alt="Cat 5"/>
+          <img src={gridCat6} className={css.small} alt="Cat 6"/>
+          <img src={gridCat7} className={css.small} alt="Cat 7"/>
+          <img src={gridCat8} className={css.large} alt="Cat 8"/>
+          <img src={gridCat9} className={css.small} alt="Cat 9"/>
         </div>
         <button>Show more cats</button>
       </section>
