@@ -2,7 +2,6 @@
 
 .container {
     display: flex;
-    padding-top: 12vh;
     margin: 0 4rem;
     color: #3D3D3D;
 }
@@ -36,6 +35,9 @@
     background-color: #F8F8FF;
     color: #0D3DEC;
 }
+.container button:last-child:hover {
+    color: #F8F8FF;
+}
 .buttons {
     width: 100%;
     display: flex;
@@ -43,6 +45,8 @@
 }
 .catImg {
     width: 55vw;
+    height: fit-content;
+    margin: auto 0;
 }
 
 
