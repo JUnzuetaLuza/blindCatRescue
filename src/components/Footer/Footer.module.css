@@ -64,9 +64,3 @@
     padding: 2rem 0;
     padding-left: 4rem;
 }
-
-@media (max-width: 720px) {
-    .container {
-        height: 10vh;
-    }
-}
