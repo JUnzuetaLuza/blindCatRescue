@@ -1,11 +1,20 @@
-import { NavBar } from '../../components/NavBar/NavBar'
+import css from './AboutUs.module.css';
+import { NavBar } from '../../components/NavBar/NavBar';
+import { Footer } from '../../components/Footer/Footer';
 
 export const AboutUs = () => {
 
   return (
     <>
       <NavBar/>
-      <h1>HELLOW MR ABOUT US</h1>
+      <div className={css.container}>
+        <h2 className={css.title}>Meet the cats!</h2>
+        <div className={css.twoColumns}>
+          <p>We would like to introduce toy to the blind, FIV & FELV+ residents of Blind Cat Rescue. Every cat may have more than one sponsor.<br/>We urge our supporters to choose wichever cat you find touches your heart the most, as they will all receive the same standard of care regardless of how many sponsors they have.</p>
+          <p>It costs approximately $1000 per day to provide the cats with shelter, quality food, and medical care. Cats with NEED SPONSOR badge buttons currentlyhave two or less sponsors.<br/><br/>Thank you for your support in helping the cats!</p>
+        </div>
+      </div>
+      <Footer/>
     </>
   )
 }
