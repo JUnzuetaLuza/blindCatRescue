@@ -1,12 +1,9 @@
 import css from './AboutUs.module.css';
-import { NavBar } from '../../components/NavBar/NavBar';
-import { Footer } from '../../components/Footer/Footer';
 
 export const AboutUs = () => {
 
   return (
     <>
-      <NavBar/>
       <div className={css.container}>
         <h2 className={css.title}>Meet the cats!</h2>
         <div className={css.twoColumns}>
@@ -14,7 +11,6 @@ export const AboutUs = () => {
           <p>It costs approximately $1000 per day to provide the cats with shelter, quality food, and medical care. Cats with NEED SPONSOR badge buttons currentlyhave two or less sponsors.<br/><br/>Thank you for your support in helping the cats!</p>
         </div>
       </div>
-      <Footer/>
     </>
   )
 }

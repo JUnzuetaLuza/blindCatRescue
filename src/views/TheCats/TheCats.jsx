@@ -1,10 +1,9 @@
-import { NavBar } from '../../components/NavBar/NavBar'
+import css from './TheCats.module.css';
 
 export const TheCats = () => {
 
     return (
       <>
-        <NavBar/>
         <h1>HELLOW MR THE CATS</h1>
       </>
     )

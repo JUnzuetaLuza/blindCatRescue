@@ -1,7 +1,4 @@
 import css from './Home.module.css';
-import { NavBar } from '../../components/NavBar/NavBar';
-//import { Carousel } from '../../components/Carousel/Carousel';
-import { Footer } from '../../components/Footer/Footer';
 import { Map } from '../../components/Map/Map';
 import blindCat1 from '../../assets/blindCat1.png';
 import blindCat2 from '../../assets/blindCat2.png';
@@ -27,7 +24,6 @@ export const Home = () => {
 
   return (
     <>
-      <NavBar/>
       <section className={css.container}>
         <div>
           <h1>Blind Cat Rescue & Sanctuary, Inc</h1>
@@ -92,7 +88,6 @@ export const Home = () => {
         </div>
         <button>Become a sponsor</button>
       </section>
-      <Footer/>
     </>
   )
 }
