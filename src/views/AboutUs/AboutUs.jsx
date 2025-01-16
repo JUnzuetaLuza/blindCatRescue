@@ -36,11 +36,9 @@ export const AboutUs = () => {
         <br/>
         <p>Blindness in cats can result from hypertension, diabetes, hyperthyroidism, or untreated respiratory infections. If blindness occurs suddenly, rush your cat to the vet and insist on a blood pressure check, it could be reversible with timely treatment. Signs like sneezing, coughing, gooey eyes, excessive eating with weight loss, or constant thirst require urgent vet attention. Full blood work is essential for an accurate diagnosis and proper care.</p>
         <div className={css.squareText}>
-          <p>We are registered non-profit with the state of North Caroline.</p><br/>
+          <p>We are registered non-profit with the state of North Caroline.</p>
           <p>We are a S01(c)3. Our tax number is 20-3410498.</p><br/>
-          <br/>
           <p>Please, if you believe that blind, FIV+ or FeLV+ cats deserve to have an opportunity to live instead of being declared not adoptable and immediately killed, help us have the resources to help them.</p><br/>
-          <br/>
           <p>Your donations are tax deductible and encrypted. You may use Mastercard, Visa or Paypal. Please say YES to helping the blind, FIV and FeLV+ cats. Please Donate Now!</p>
         </div>
       </div>
