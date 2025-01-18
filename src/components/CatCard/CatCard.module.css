@@ -26,14 +26,19 @@
     text-align: center;
     background: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .cardFront {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
+    z-index: 2;
+}
+
+.cardBack {
+  transform: rotateY(180deg);
+  z-index: 1;
 }
 
 .urgentIcon {
@@ -49,11 +54,6 @@
     object-fit: cover;
 }
 
-.cardBack {
-    transform: rotateY(180deg);
-    padding: 15px;
-}
-
 .sponsorBtn {
     margin-top: 10px;
     padding: 8px;
@@ -63,4 +63,4 @@
     color: white;
     cursor: pointer;
     border-radius: 5px;
-}
+} 

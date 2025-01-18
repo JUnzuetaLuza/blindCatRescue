@@ -3,10 +3,9 @@ import css from "./CatCard.module.css";
 
 export const CatCard = ({ cat }) => {
   const [isFlipped, setIsFlipped] = useState(false);
-  
   return (
     <div
-    className={`css.catCard ${isFlipped ? "css.flipped" : ""}`}
+    className={isFlipped ? `${css.catCard} ${css.flipped}` : `${css.catCard}`}
       onMouseEnter={() => setIsFlipped(true)}
       onMouseLeave={() => setIsFlipped(false)}
     >
