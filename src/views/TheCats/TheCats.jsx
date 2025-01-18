@@ -1,6 +1,8 @@
 import css from './TheCats.module.css';
 import { CatCard } from "../../components/CatCard/CatCard.jsx"
 
+import { cats } from "../../scripts/CatsData.js"
+
 export const TheCats = () => {
 
   return (
