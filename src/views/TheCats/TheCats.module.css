@@ -16,3 +16,21 @@
     margin: 0;
     text-align: justify;
 }
+
+.catGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  justify-content: center;
+}
+
+.moreCats {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 255, 0.2);
+  border-radius: 10px;
+  font-weight: bold;
+}
