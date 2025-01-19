@@ -1,6 +1,6 @@
 import css from './TheCats.module.css';
+import cat from '../../assets/gridCat9.jpg';
 import { CatCard } from "../../components/CatCard/CatCard.jsx"
-
 import { cats } from "../../scripts/CatsData.js"
 
 export const TheCats = () => {
@@ -17,7 +17,10 @@ export const TheCats = () => {
               {cats.map((cat, index) => (
                 <CatCard key={index} cat={cat} />
               ))}
-              <div className={css.moreCats}>Más gatos</div>
+              <div className={css.moreCats}>
+                <img src={cat} alt={cat} className={css.catImage} />
+                <p>More cats</p>
+              </div>
             </div>
           </div>
     </>

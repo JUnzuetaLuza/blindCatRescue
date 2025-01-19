@@ -1,8 +1,11 @@
 .catCard {
-    width: 25vw;
+    width: auto;
     height: 50vh;
     perspective: 1000px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .cardInner {
@@ -37,6 +40,7 @@
     top: 10px;
     left: 10px;
     font-size: 20px;
+    z-index: 2;
 }
 
 .catImage {
