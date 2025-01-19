@@ -20,9 +20,9 @@ export const CatCard = ({ cat }) => {
         <div className={css.cardBack}>
           <img src={cat.image} alt={cat.name} className={css.catImage} />
           <h3>{cat.name}</h3>
-          <p><strong>Raza:</strong> {cat.breed}</p>
-          <p><strong>Ubicación:</strong> {cat.location}</p>
-          <p><strong>Fecha de llegada:</strong> {cat.arrivalDate}</p>
+          <p><strong>Breed:</strong> {cat.breed}</p>
+          <p><strong>Location:</strong> {cat.location}</p>
+          <p><strong>Arrival:</strong> {cat.arrivalDate}</p>
           <a onClick={() => setIsFlipped(false)}>X</a>
         </div>
 
