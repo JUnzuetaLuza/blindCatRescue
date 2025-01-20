@@ -1,4 +1,5 @@
 import css from './Home.module.css';
+import { NavLink } from 'react-router-dom';
 import { Map } from '../../components/Map/Map';
 import blindCat1 from '../../assets/blindCat1.png';
 import blindCat2 from '../../assets/blindCat2.png';
@@ -61,7 +62,7 @@ export const Home = () => {
           <img src={gridCat8} className={css.large} alt="Cat 8"/>
           <img src={gridCat9} className={css.small} alt="Cat 9"/>
         </div>
-        <button>Show more cats</button>
+        <NavLink to="/thecats" className={css.moreCats}>Show more cats</NavLink>
       </section>
       <section className={css.directionSection}>
         <div className={css.directionSub}>
