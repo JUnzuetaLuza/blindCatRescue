@@ -9,6 +9,7 @@
     padding-top: 0;
 }
 .container div {
+    max-width: 50%;
     align-self: center;
 }
 .container h1 {
@@ -44,7 +45,7 @@
     justify-content: space-evenly;
 }
 .catImg {
-    width: 50vw;
+    max-width: 50%;
     height: fit-content;
     margin: auto 0;
 }
@@ -117,8 +118,11 @@
     margin: 0 4rem;
 }
 .directionSub {
-    width: 60vw;
+    width: 60%;
     padding: 0 10vw;
+}
+.directionMap {
+    width: auto;
 }
 .directionSection h3 {
     font-size: 2rem;

@@ -20,6 +20,7 @@
     gap: 50px;
     padding-right: 4rem;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    overflow: hidden;
 }
 .navLink {
     all: unset;

@@ -76,7 +76,7 @@ export const Home = () => {
           <p>3101 E Great Marsh Church
             <br/>Road St Pauls, NC 28384</p>
         </div>
-        <Map/>
+          {/* <Map/> */}
       </section>
       <section className={css.sponsorSection}>
         <h3>Thanks to our sponsors!</h3>
