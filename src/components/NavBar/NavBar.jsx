@@ -17,9 +17,9 @@ export const NavBar = () => {
     <div className={css.container}>
       <img src={logo} className={css.logo}/>
       
-      <button className={css.burger} onClick={toggleMenu}>
+      <a className={css.burger} onClick={toggleMenu}>
         ☰
-      </button>
+      </a>
 
       <ul className={`${css.navButtons} ${menuOpen ? css.navOpen : ''}`}>
         <NavLink to='/'         className={({ isActive }) => (isActive ? `${css.navLink} ${css.navLinkActive}` : `${css.navLink}`)}>
@@ -28,10 +28,14 @@ export const NavBar = () => {
           <img src={pawIcon} className={css.navLinkIcon} />About Us</NavLink>
         <NavLink to='/thecats'  className={({ isActive }) => (isActive ? `${css.navLink} ${css.navLinkActive}` : `${css.navLink}`)}>
           <img src={pawIcon} className={css.navLinkIcon} />The Cats</NavLink>
-        <li className={css.navLink}>Wishlist</li>
-        <li className={css.navLink}>Volunteer</li>
-        <li className={css.navLink}>Memorials</li>
-        <li className={css.navLink}>Watch Live</li>
+        <NavLink to=''  className={css.navLink}>
+          <img src={pawIcon} className={css.navLinkIcon} />Wishlist</NavLink>
+        <NavLink to=''  className={css.navLink}>
+          <img src={pawIcon} className={css.navLinkIcon} />Volunteer</NavLink>
+        <NavLink to=''  className={css.navLink}>
+          <img src={pawIcon} className={css.navLinkIcon} />Memorials</NavLink>
+        <NavLink to=''  className={css.navLink}>
+          <img src={pawIcon} className={css.navLinkIcon} />Watch Live</NavLink>
       </ul>
 
     </div>

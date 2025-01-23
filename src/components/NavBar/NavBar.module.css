@@ -70,13 +70,13 @@
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 12vh;
+        top: 10vh;
         right: 0;
         background-color: white;
-        width: 20%;
+        width: fit-content;
         text-align: center;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        padding: 1rem 0;
+        padding: 1rem 2rem;
         z-index: 100;
     }
 
