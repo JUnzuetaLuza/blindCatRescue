@@ -3,7 +3,7 @@ import React from 'react';
 import pawIcon from '../../assets/pawIcon.png';
 import logo from '../../assets/bcrLogo.png';
 import { NavLink } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export const NavBar = () => {
 
@@ -12,6 +12,12 @@ export const NavBar = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+  useEffect(() => {
+    return () => {
+      setMenuOpen(false);
+    }
+  }, [location.pathname]);
 
   return (
     <div className={css.container}>

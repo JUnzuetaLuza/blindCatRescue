@@ -177,3 +177,10 @@ button:hover {
     background: linear-gradient(to left, #0D3DEC, #001B80);
     color: #F8F8FF;
 }
+
+
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 3rem;
+    }
+}

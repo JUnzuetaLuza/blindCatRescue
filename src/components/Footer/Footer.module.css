@@ -65,7 +65,7 @@
     padding-left: 4rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1920px) {
     .container {
         align-items: center;
         text-align: center;
