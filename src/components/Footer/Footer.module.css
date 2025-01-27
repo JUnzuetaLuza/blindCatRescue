@@ -61,8 +61,7 @@
 .rights{
     color: #3D3D3D;
     margin: 0;
-    padding: 2rem 0;
-    padding-left: 4rem;
+    padding: 2rem 4rem;
 }
 
 @media (max-width: 1920px) {

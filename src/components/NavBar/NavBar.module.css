@@ -20,7 +20,8 @@
     gap: 2vw;
     padding-right: 4rem;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-    overflow: scroll;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .navLink {
     all: unset;
@@ -60,7 +61,7 @@
     transition: transform 0.2s ease-in-out;
 }
 
-@media (max-width: 768px) {
+@media (width < 1024px) {
     .burger {
         display: block;
     }
