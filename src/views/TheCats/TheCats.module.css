@@ -51,3 +51,9 @@
   filter: blur(1rem);
   z-index: 1;
 }
+
+@media (width < 768px) {
+  .catGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
